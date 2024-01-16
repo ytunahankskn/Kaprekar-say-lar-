@@ -40,9 +40,9 @@ int main()
 	int kalan;
 	int bolum ;
 	
-	kalan = kare % yuzdelik; //n basamak sayısı kadar olan sonuç
+	kalan = kare % yuzdelik; //n çıkarılınca sayıda kalan kısım
 	
-	bolum = kare / ondalik; //n çıkarılınca sayıda kalan kısım
+	bolum = kare / ondalik; //n basamak sayısı kadar olan sonuç
 	
 	cout << "Bolum :" << bolum << endl;
 	cout << "kalan :" << kalan << endl;
