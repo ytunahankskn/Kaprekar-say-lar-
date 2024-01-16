@@ -14,3 +14,5 @@ n basamaklı bir t Kaprekar sayısının karesi alınıp sağdaki n basamağı s
 Bu iki sayının toplamı 30+25=55 yani sayının kendisidir.
 
 1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 142857 sayıları da diğer bazı Kaprekar sayılarıdır.
+
+[İlgili Kodu Buradan inceleyebilirsiniz .](kaprekarsayilar.cpp)
