@@ -1,4 +1,4 @@
-# Kaprekar sayıları(kaprekarsayilar.cpp)
+# Kaprekar sayıları
 C++ Dili ile Kaprekar sayılarını bulma .
 
 Kaprekar sayıları , 1949 yılında Hint matematikçi Kaprekar tarafından tariflenen sayılardır.
