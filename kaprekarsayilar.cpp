@@ -4,16 +4,20 @@ using namespace std;
 int main()
 {
 	int sayi ;
-	
+
+	//ilgili sayi isteniyor
 	cout << "Sayı gir:" << endl;
 	cin >> sayi;
-	
+
+	//sayının karesi alınıyor
 	int kare;
 	kare = sayi * sayi;
+	
 	int gecici= sayi;
+	
 	int n = 0;
 		
-	for (int a = 1;a < gecici ; a=10*a )
+	for (int a = 1;a < gecici ; a=10*a ) //sayımızın kaç basamak olduğu bulunuyor
 	{
 		n++;
 		gecici = gecici / a;
@@ -36,13 +40,14 @@ int main()
 	int kalan;
 	int bolum ;
 	
-	kalan = kare % yuzdelik;
-	bolum = kare / ondalik;
+	kalan = kare % yuzdelik; //n basamak sayısı kadar olan sonuç
+	
+	bolum = kare / ondalik; //n çıkarılınca sayıda kalan kısım
 	
 	cout << "Bolum :" << bolum << endl;
 	cout << "kalan :" << kalan << endl;
 	
-	if(sayi  == kalan+bolum) cout << "Karper Sayısıdır"; else cout << "Karper Sayısı Degildir";
+	if(sayi  == kalan+bolum) cout << "Karper Sayısıdır"; else cout << "Karper Sayısı Degildir"; // ilgili karşılaştırma yapılıyor ardından sonucu bize veriyor.
 	
 
 
